@@ -1,0 +1,27 @@
+{
+  "name": "crt-288-k001-heay",
+  "version": "1.0.0",
+  "description": "NodeJS module for crt-288-k001-heay card reader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderMykhailenko/crt-288-k001-heay.git"
+  },
+  "keywords": [
+    "crt-288-k001-heay",
+    "card reader",
+    "magnetic card",
+    "stripe",
+    "crt-288-k001",
+    "crt-288"
+  ],
+  "author": "Alexander Mykhailenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderMykhailenko/crt-288-k001-heay/issues"
+  },
+  "homepage": "https://github.com/alexanderMykhailenko/crt-288-k001-heay#readme"
+}
