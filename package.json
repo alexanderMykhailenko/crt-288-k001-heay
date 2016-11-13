@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/alexanderMykhailenko/crt-288-k001-heay/issues"
   },
-  "homepage": "https://github.com/alexanderMykhailenko/crt-288-k001-heay#readme"
+  "homepage": "https://github.com/alexanderMykhailenko/crt-288-k001-heay#readme",
+  "dependencies": {
+    "async": "^2.1.2",
+    "ffi": "^2.2.0",
+    "readline-sync": "^1.4.5",
+    "ref-array": "^1.2.0"
+  }
 }
