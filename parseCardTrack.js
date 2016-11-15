@@ -1,4 +1,19 @@
-module.exports = function parsePaymentCardMagneticStripe(data = '') {
+module.exports = function parseCardTrackFromCRT288KU(data = ''){
+    let res = parsePaymentCardMagneticStripe('%'+data);
+    if(res && res.cards && res.cards.length > 0 && res.cards[0]){
+        return {
+            raw: data,
+            number: res.cards[0].number,
+            expirationDate: res.cards[0].expirationDate,
+            firstName: res.cards[0].holder.firstName,
+            lastName: res.cards[0].holder.lastName
+        };
+    }else{
+        return null;
+    }
+};
+
+function parsePaymentCardMagneticStripe(data = '') {
     let cards = [];
     let errors = [];
     let tracks = data.split('\r');
@@ -10,7 +25,7 @@ module.exports = function parsePaymentCardMagneticStripe(data = '') {
     }
     if (!cards.length) errors.push(new Error('No payment card information found'));
     return { cards, errors };
-};
+}
 
 function parseTrack(track) {
     try {

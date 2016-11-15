@@ -1,6 +1,6 @@
 {
   "name": "crt-288-k001-heay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NodeJS module for crt-288-k001-heay card reader",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   "dependencies": {
     "async": "^2.1.2",
     "ffi": "^2.2.0",
-    "readline-sync": "^1.4.5",
+    "keypress": "^0.2.1",
     "ref-array": "^1.2.0"
   }
 }
