@@ -14,7 +14,8 @@ Usage example in file **example.js**
 ----------
 
 ### Start using:
-    var CRT_288_K001 = require('crt-288-k001-heay');
+    var CRT_288_K001 = require('crt-288-k001-heay').CRT_288_K001;
+    var CRT_288_K001_errors = require('crt-288-k001-heay').Errors;
 
 ----------
 

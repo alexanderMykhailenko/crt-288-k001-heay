@@ -299,4 +299,5 @@ class CRT_288_K001 extends EventEmitter {
     }
 }
 
-module.exports = CRT_288_K001;
+module.exports.CRT_288_K001 = CRT_288_K001;
+module.exports.Errors = Errors;

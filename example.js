@@ -1,6 +1,8 @@
 var isEmulate = true;// for real usage please set false
 
-var CRT_288_K001 = require('./index');
+var CRT_288_K001 = require('./index').CRT_288_K001;
+var CRT_288_K001_errors = require('./index').Errors;
+
 var async = require('async');
 
 var keypress = require('keypress');
